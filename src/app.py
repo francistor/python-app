@@ -17,7 +17,8 @@ def details():
 @app.route("/app/v1/healthz")
 def health():
     return jsonify({
-        "status": "up"
+        "status": "up",
+        "weather": "fine"
     }), 200
 
 if __name__ == "__main__":
