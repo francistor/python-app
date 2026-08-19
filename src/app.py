@@ -18,7 +18,7 @@ def details():
 def health():
     return jsonify({
         "status": "up",
-        "weather": "fine <7"
+        "weather": "fine <8"
     }), 200
 
 if __name__ == "__main__":
