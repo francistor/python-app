@@ -57,7 +57,7 @@ jobs:
           VERSION=v4.2.0
           PLATFORM=linux_amd64
           curl -Ls https://github.com/mikefarah/yq/releases/download/${VERSION}/yq_${PLATFORM}.tar.gz | tar xz && sudo mv yq_${PLATFORM} /usr/local/bin/yq
-          yq -i '.image.tag = ${{ needs.ci.outputs.commit_id }}' charts/values.yaml
+          yq -i ".image.tag = \"${{ needs.ci.outputs.commit_id }}\"" charts/values.yaml
 
       - name: commit to github 
         uses: EndBug/add-and-commit@v9
