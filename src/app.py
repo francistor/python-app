@@ -18,7 +18,8 @@ def details():
 def health():
     return jsonify({
         "status": "up",
-        "weather": "fine <6"
+        "weather": "fine <6",
+        "deployed_on": "kubernetes"
     }), 200
 
 if __name__ == "__main__":
