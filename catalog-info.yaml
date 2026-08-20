@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app
+  description: My sample application
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: francistor/python-app
+  #   backstage.io/techdocs-ref: dir:.
+spec:
+  type: service
+  owner: team-default
+  lifecycle: experimental

@@ -1,2 +1,0 @@
-argocd login 172.18.0.2 --insecure --username admin --password gOrhP7Y1PSvv6KQs
-argocd app sync python-app
