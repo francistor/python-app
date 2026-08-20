@@ -6,7 +6,7 @@ metadata:
   # Example for optional annotations
   annotations:
     github.com/project-slug: francistor/python-app
-  #   backstage.io/techdocs-ref: dir:.
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: team-default

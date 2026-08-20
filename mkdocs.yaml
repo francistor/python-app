@@ -1,0 +1,12 @@
+site_name: 'Python-app'
+site_description: 'Documentation for python-app'
+repo_url: https://github.com/francistor/python-app
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.js`
+nav:
+  - Overview:
+      - What is Python-app?: 'doc/index.md'
